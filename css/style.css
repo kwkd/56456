@@ -1,64 +1,101 @@
-.top-menu {
-  position: relative;
-  background: rgba(34,34,34,.2);
+body{
+  font-family: Montserrat;
+
 }
-.menu-main {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.menu-main:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.left-item {float: left;}
-.right-item {float: right;}
-.navbar-logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-}
-.menu-main a {
+a{
   text-decoration: none;
-  display: block;
-  line-height: 80px;
-  padding: 0 20px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-family: 'Arimo', sans-serif;
-  font-weight: bold;
-  color: white;
-  transition: .3s linear;
 }
-.menu-main a:hover {background: rgba(0,0,0,.3);}
-@media (max-width: 830px) {
-.menu-main {
-  padding-top: 90px;
-  text-align: center;
+li{
+  display: inline;
+  margin-right: 100px;
+  font-family: Montserrat;
+  list-style-type: none;
 }
-.navbar-logo {
+.logo{
   position: absolute;
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
+  width: 100px;
+  height: 32.28px;
+  left: 670px;
+  top: 42px;
 }
-.menu-main li {
-  float: none;
-  display: inline-block;
+h1{
+  width: 384px;
+  height: 118px;
+  left: 120px;
+  top: 171px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  color: #ae7c78;
 }
-.menu-main a {
-  line-height: normal;
-  padding: 20px 15px;
+  span{
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+  }
+.nav-menu{
+  font-family: Montserrat;
   font-size: 16px;
 }
+.nav-menu a{
+  color: #ae7c78;
 }
-@media (max-width: 630px) {
-.menu-main li {display: block;}
+.servise{
+  display: inline-flex;
+}
+h2{
+font-family: Montserrat;
+font-family: Playfair Display;
+font-style: normal;
+font-size: 36px;
+line-height: 48px;
+color: #AE7C78;
+}
+h3{
+font-family: Montserrat;
+font-family: Playfair Display;
+font-style: normal;
+font-size: 24px;
+line-height: 48px;
+color: #AE7C78;
+}
+p{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #AE7C78;
+}
+dd,dl, dt{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #ae7c78;
+  line-height: 29px;
+}
+.zakaz{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+background: #D89999;
+border-radius: 40px;
+height:80px;
+width:330px;
+
+}
+cite{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #ae7c78;
+  line-height: 29px;
+}
+h4{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #ae7c78;
+  line-height: 29px;
 }
 
-.avtor {
-	font-family: Playfair Display;
-  size: 21px;
-}

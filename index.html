@@ -2,34 +2,37 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name ="vieport" content="width-device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="/botanica/css/style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Botanica</title>
 </head>
 <body>
-	<header >
+	<header>
 		
-		<nav class="top-menu">
-			<ul c>
-				<li class="left-item"><a href="#">Каталог</li></a>
-				<li class="left-item"><a href="#">Доставкаи оплата</li></a>
-				<li class="left-item"><a href="#">Отзывы</li></a>
-				<li class="right-item"><a href="#">Спецпредложение</li></a>
-				<li class="right-item"><a href="#">Контакты</li></a>
-				<li class="right-item"><a href="#">Корзина</li></a>
+		<nav class="nav-menu">
+			<hr>
+			<a class="logo" href=""><img src="img/logo.png" alt="Логотип"></a>
+			<ul>
+			
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Доставкаи оплата</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Спецпредложение</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Корзина</a></li>
+		
 			</ul>
-			<a class="navbar-logo" href=""><img src="img/logo.png" alt="Логотип"></a>
+			<hr>
 		</nav>
 	</header>
 	<main>
 		<section>
-			<h1 class="avtor">Авторские букеты в Петербурге</h1>
+			<h1>Авторские букеты <span>в Петербурге</span></h1>
 			<p>Оригинальные свежие букеты с доставкой по всему городу</p>
 			<a href="#"> Смотерть каталог</a>
 			<img src="img/flow1.jpg" alt="Розовые тульпаны">
@@ -58,31 +61,37 @@
 			<p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
 			<p>30 × 40 см</p>
 			<p>3600 руб.</p>
-			<a href="#">Заказать</a>
+			<button class="zakaz"><a href="#">Заказать</a></button>
 			<img src="img/1.png" alt="">
-			<button><img src="img/Arrow 2.svg" alt="Кнопка"></button>
-			<button><img src="img/Arrow 1.svg" alt="Кнопка"></button>
+			<button><img src="img/arrow2.svg" alt="Кнопка"></button>
+			<button><img src="img/arrow1.svg" alt="Кнопка"></button>
 		</section>
 		<section class="bukets">
 		<div class="bukets1">
 		<a href="#">
 		<img src="img/2.jpg" alt="vaza1">
-		<h3>Свадебные букеты</h3>
-		<p>Букеты для невест</p>
+		<dl>
+			<dt>Свадебные букеты</dt>
+			<dd>Букеты для невест</dd>
+		  </dl>
         </a>
     </div>
     <div class="bukets2">
 		<a href="#">
 		<img src="img/3.jpg" alt="vaza2">
-		<h3>Букеты с пионами</h3>
-		<p>Букеты с сезонными пионами</p>
+		<dl>
+			<dt>Букеты с пионами</dt>
+			<dd>Букеты с сезонными пионами</dd>
+		  </dl>
         </a>
     </div>
     <div class="bukets3">
 		<a href="#">
 		<img src="img/4.jpg" alt="vaza3">
-		<h3>Выбрать букет</h3>
-		<p>Букеты в ассортименте</p>
+		<dl>
+			<dt>Выбрать букет</dt>
+			<dd>Букеты в ассортименте</dd>
+		  </dl>
         </a>
     </div>	
 		</section>
@@ -118,13 +127,14 @@
 			<h2>Следите за нашими новостями</h2>
 			<p>Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
 			<ul>
-				<li><a href="#"><img src="img/in.svg"></a></li>
-				<li><a href="#"><img src="img/f.svg"></a></li>
-				<li><a href="#"><img src="img/tw.svg"></a></li>
+				<li><a href="#"><img src="img/tw.svg" alt=""></a></li>
+				<li><a href="#"><img src="/img/in.svg" alt=""></a></li>
+				<li><a href="#"><img src="img/f.svg" alt=""></a></li>
+				<li><a href="#"><img src="img/tw.svg" alt=""></a></li>
 			</ul>
-		<img src="img/6.jpg">
-		<img src="img/7.jpg">
-		<img src="img/8.jpg">
+		<img src="img/6.jpg" alt="">
+		<img src="img/7.jpg" alt="">
+		<img src="img/8.jpg" alt="">
 		</section>
 		<section class="reviews">
 			<h2>Отзывы</h2>
@@ -160,17 +170,17 @@
 	<footer>
 	<nav>
 		<ul>
-				<li><a href="#">Каталог</li></a>
-				<li><a href="#">Доставкаи оплата</li></a>
-				<li><a href="#">Отзывы</li></a>
-				<li><a href="#">Спецпредложение</li></a>
-				<li><a href="#">Контакты</li></a>
-				<li><a href="#">Корзина</li></a>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Доставкаи оплата</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Спецпредложение</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Корзина</a></li>
 			</ul>
 			<ul>
-				<a href="#"><img src="img/in.svg"></a>
-				<a href="#"><img src="img/f.svg"></a>
-				<a href="#"><img src="img/tw.svg"></a></li>
+				<li><a href="#"><img src="img/in.svg" alt=""></a></li>
+				<li><a href="#"><img src="img/f.svg" alt=""></a></li>
+				<li><a href="#"><img src="img/tw.svg" alt=""></a></li>
 			</ul>
 	</nav>
 </footer>
