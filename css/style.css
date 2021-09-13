@@ -1,9 +1,11 @@
 body{
   font-family: Montserrat;
+  color: #ae7c78;
 
 }
 a{
   text-decoration: none;
+  color: #ae7c78;
 }
 li{
   display: inline;
@@ -82,20 +84,47 @@ font-size: 16px;
 line-height: 20px;
 background: #D89999;
 border-radius: 40px;
-height:80px;
-width:330px;
-
+padding: 30px 70px;
+border: none;
+color: white;
 }
+  
 cite{
   font-family: Montserrat;
   font-size: 16px;
-  color: #ae7c78;
   line-height: 29px;
 }
 h4{
   font-family: Montserrat;
   font-size: 16px;
-  color: #ae7c78;
   line-height: 29px;
+}
+.strel{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+}
+.bukets{
+  display: inline-flex;
+
+}
+.bukets1{
+  background: url("/botanica/img/2.jpg");
+  width: 387px;
+  height: 438px;
+}
+.a-bukets{
+  color: #fff;
+}
+.bukets2{
+  background: url("/botanica/img/3.jpg");
+  width: 387px;
+  height: 438px;
+}
+.bukets3{
+  background: url("/botanica/img/4.jpg");
+  width: 387px;
+  height: 438px;
 }
 
